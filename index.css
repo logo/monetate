@@ -1,21 +1,2 @@
-
-/**
- * Monetate logo.
- */
-
-.logo[data-logo="Monetate"] {
-  width: 4.442204901197873em;
-}
-
-.logo[data-logo="Monetate"] > * {
-  background-image: url(images/logo.svg);
-  margin: 0 0 0 0;
-}
-
-.logo[data-logo="Monetate"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Monetate"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
